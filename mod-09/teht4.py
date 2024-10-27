@@ -36,7 +36,7 @@ while kilpailu_kaynnissa:
         nopeuden_muutos = random.randint(-10, 15)
         auto.kiihdyta(nopeuden_muutos)
 
-        # Kuljetaan yksi tunti
+        # Kuljetaan yksi tunt
         auto.kulje(1)
 
         # Tarkistetaan, onko jokin auto saavuttanut 10000 km
